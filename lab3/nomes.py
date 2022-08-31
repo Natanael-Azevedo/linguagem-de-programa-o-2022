@@ -4,3 +4,4 @@ print('Convide  '+nomes[1])
 print('Convide  '+nomes[2])
 print(nomes[3]+' não podera comparecer')
 
+print(len(nomes))

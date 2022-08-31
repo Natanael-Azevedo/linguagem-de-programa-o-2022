@@ -1,3 +1,6 @@
+from tkinter.font import names
+
+
 guests = ['guido van rossum', 'jack turner', 'lynn hill']
 
 name = guests[0].title()
@@ -54,6 +57,7 @@ print(name + ", please come to dinner.")
 
 print("Oh no, i can only invite 2 people")
 
+#cancele com 4 convidados
 remove = guests.pop(5)
 print(f'bye, {remove.title()}')
 remove = guests.pop(4)
@@ -63,12 +67,19 @@ print(f'bye, {remove.title()}')
 remove = guests.pop(2)
 print(f'bye, {remove.title()}')
 
+#convide 2
 name = guests[0].title()
 print("\n" + name + ", please come to dinner.")
 
 name = guests[1].title()
 print(name + ", please come to dinner.")
 
+print(len(guests))
 
+#deletando os dois ultimos convidados 
+del(guests[0])
+del(guests[0])
+#mostre que a lista esta vazia
+print(guests)
 
 
