@@ -12,17 +12,22 @@ saque = 388
 cem = int(saque/100)
 print(cem)
 saque = saque - (cem*100)
+
 cinquenta = int(saque/50)
 print(cinquenta)
 saque = saque - (cinquenta*50)
+
 vinte = int(saque/20)
 print(vinte)
 saque = saque - (vinte*20)
 dez = int(saque/10)
+
 print(dez)
 saque = saque - (dez*10)
 cinco = int(saque/5)
+
 print(cinco)
 saque = saque - (cinco*5)
 um = saque
+
 print(um)
