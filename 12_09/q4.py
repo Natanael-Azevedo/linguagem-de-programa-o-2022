@@ -6,15 +6,17 @@ lista = [45, 55, 65]
 for indice, valor in enumerate(lista):
     print(f'O valor {valor} está no índice {indice}')
 '''
-num=int(input("entre com um número:"))
 lista=[]
-for x in range(num):
-    lista.append(int(input()))
-lista.remove[0]
-for x in lista:
-    if lista[1]>lista[0]:
-        print("dia 1")
+n=int(input())
+for num in range(n):
+  num=int(input())
+  lista.append(num)
+soma=0
+for indice, valor in enumerate(lista):
+    if indice>0:
+      if valor> soma:
+        print(f"dia {indice}")
         break
-    else:
+      elif indice == n-1:
         print("não há")
-        break
+    soma+=valor    
