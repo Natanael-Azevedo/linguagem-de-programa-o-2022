@@ -7,7 +7,7 @@
 # 73
 # possível. Serão utilizadas notas de 100, 50,
 # 20, 10, 5, 2 e 1 reais.
-saque = 388
+saque = 50
 
 cem = int(saque/100)
 print(cem)

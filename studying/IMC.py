@@ -1,9 +1,9 @@
 n = int(input())
 pessoas=[]
 for x in range(n):
-    nome = input()
-    peso = float(input())
-    altura = float(input())
+    nome = input("Nome:")
+    peso = float(input("Peso:"))
+    altura = float(input("Altura:"))
     tupla=(nome,peso,altura)
     pessoas.append(tupla)
 
