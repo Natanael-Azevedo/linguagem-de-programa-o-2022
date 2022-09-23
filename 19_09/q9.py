@@ -20,10 +20,15 @@ pimenta milho queijo
 # ingredientes = input().split()
 
 '''
-ingredientes = input().split()
-np_comer = input().split()
-for np_comer in np_comer:
-    if np_comer in ingredientes:
-       novo = ingredientes - np_comer
-       print(novo)
+pizza1 = input().split()
+pizza2 = input().split()
+
+pizza3 = pizza1[:]
+
+for ingrediente in pizza2:
+    if ingrediente in pizza3:
+        pizza3.remove(ingrediente)
+
+print(pizza1)
+print(pizza3)
     

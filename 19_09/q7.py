@@ -55,7 +55,7 @@ salada2 = input().split()
 salada3 = input().split()
 
 fruta_favorita = input()
-if fruta_favorita in salada and salada2 and salada3:
-    print("deu certo")
+if fruta_favorita in salada and fruta_favorita in salada2 and fruta_favorita in salada3:
+    print(f"{fruta_favorita} aparece em todas as saladas")
 else:
-    print("deu errado")
+    print(f"{fruta_favorita} não aparece em todas as saladas")

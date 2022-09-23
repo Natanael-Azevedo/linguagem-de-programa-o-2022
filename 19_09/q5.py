@@ -22,13 +22,9 @@ Não vai comprar
 '''
 cor = input()
 preco = int(input())
-if cor.lower()=="amarelo" and preco>0:
+if cor.lower()=="amarelo":
     print("Vai comprar")
-elif cor=="azul" or cor=="verde" and preco<=20:
+elif (cor=="azul" or cor=="verde") and preco<=20:
     print("Vai comprar")
-elif cor=="azul" and preco>20:
-    print("Não vai comprar")
-elif cor=="verde" and preco>20:
-    print("Não vai comprar")
 else:
     print("Não vai comprar")
