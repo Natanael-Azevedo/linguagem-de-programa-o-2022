@@ -17,7 +17,7 @@ import random
 lista = [13, 14, 14, 15, 16, 14, 12, 17, 18,13,13,16]
 lista.sort()
 rep = 0
-for x in range(0,len(lista)-1):
+for x in range(0,len(lista)):
     if(lista[x]==lista[x+1]):
         rep +=1
         if(x==len(lista)-2):

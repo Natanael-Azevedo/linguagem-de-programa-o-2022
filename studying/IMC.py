@@ -9,8 +9,7 @@ for x in range(n):
 
 #p=peso h=altura
 for p in pessoas:
-    for h in pessoas:
-        imc = (p[1]/(h[2]**2))
+        imc = (p[1]/(p[2]**2))
 
 
 if imc < 18.5:

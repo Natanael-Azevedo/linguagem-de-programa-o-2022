@@ -9,7 +9,7 @@ for x in range(0,3):
     names.append(input())
 
 tamanhos=[]
-for i in names:
-    tamanhos.append(len(i))
+for x in names:
+    tamanhos.append(len(x))
 print(tamanhos)
 

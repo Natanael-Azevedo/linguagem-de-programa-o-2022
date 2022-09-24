@@ -18,8 +18,8 @@ v1 = int(input())
 v2 = int(input())
 
 soma = 0
-for i in range(v1, v2+1):
-  soma += odd[i]
+for j in range(v1, v2+1):
+  soma += odd[j]
 
 print(soma)
 

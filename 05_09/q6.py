@@ -13,4 +13,4 @@ for x in range(0,3):
 num.remove(max(num))
 num.remove(min(num))
 
-print(num[0])
+print(num)

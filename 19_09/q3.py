@@ -10,14 +10,10 @@ Escreva um programa que recebe do usuário um valor  e retorna os valores de ,  
 Note que o único valor informado pelo usuário é o valor  e que na impressão do resultado são mostrados os valores de ,  e  em sequência
 '''
 c = int(input())
-
-
 for i in range(c, 0, -1):
-    for j in range(c, 0, -1):
-        
+    for j in range(c, 0, -1):        
         if i**2 + j**2 == c**2:
             b = i
             a = j
             break
-
 print(f'Tripla: {a} {b} {c}')

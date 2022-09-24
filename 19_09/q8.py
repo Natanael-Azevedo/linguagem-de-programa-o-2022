@@ -24,19 +24,19 @@ Nenhuma turma tem marcos
 
 # use split para formar uma lista a partir de uma linha da entrada
 # turma = input().split(',')"""
-turma = input()
-turma_1=turma.split()
-turma2 = input()
-turma_2=turma.split()
-turma3 = input()
-turma_3=turma.split()
-turma4 = turma_1+turma_2+turma_3
+turma1 = input().split()
 
+turma2 = input().split()
 
+turma3 = input().split()
 
-aluno = input()
+turma4 = turma1+turma2+turma3
+print(turma4)
+aluno = input("Digite o nome do aluno: ")
+for x in turma4:
+        if aluno in turma4:
+                print(f"Tem {aluno} em alguma turma")
 
-if aluno in turma4:
-        print(f"Tem {aluno} em alguma turma")
-else:
-        print(f"Nenhuma turma tem {aluno}")
+        else:
+                print(f"Nenhuma turma tem {aluno}")   
+        break

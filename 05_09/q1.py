@@ -8,8 +8,7 @@ Em seguida, o seu programa deve imprimir a lista de cidades visitadas por Pedro 
 num = int(input())
 cidades = []
 for i in range(num):
-    cidades.append(input())
-    
+    cidades.append(input())   
 cidades.reverse()
 for x in cidades:
     print(x)
