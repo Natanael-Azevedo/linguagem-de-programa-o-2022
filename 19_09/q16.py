@@ -29,8 +29,16 @@ l1 = input().split()
 l2 = input().split()
 l3 = input().split()
 x = input()
+aux=0
 
-if x in l1 and x in l2 and x in l3:
-    print(f"{x} não é um número frequente")
+if x in l1:
+	aux+=1
+if x in l2: 
+	aux+=1
+if x in l3: 
+	aux+=1
+
+if aux !=2:
+  print(f"{x} não é um número frequente")
 else:
-    print(f"{x} é um número frequente")
+  print(f"{x} é um número frequente")
