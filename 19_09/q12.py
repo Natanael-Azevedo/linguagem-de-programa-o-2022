@@ -23,5 +23,15 @@ escarola muzzarela
 [''mel', 'brócolis']
 ['escarola', 'muzzarela']
 '''
-n = int(input())
-
+n = int(input("numero de pizzas: "))
+pizzas = []
+for x in range(n):
+    pizza = input()
+    pizzas.append(pizza.split())
+tamanho = int(input("ingredientes: "))
+#for i in pizzas:
+for j in pizzas:
+    if len(j)>=tamanho:
+            print("cortar o primeiro e ultimo")
+    if len(j)<tamanho:
+            print("somente o primeiro e o ultimo")

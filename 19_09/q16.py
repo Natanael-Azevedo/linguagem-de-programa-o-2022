@@ -28,7 +28,7 @@ Cada lista de números será fornecida em uma linha própria, onde cada número 
 l1 = input().split()
 l2 = input().split()
 l3 = input().split()
-x = int(input())
+x = input()
 
 if x in l1 and x in l2 and x in l3:
     print(f"{x} não é um número frequente")
