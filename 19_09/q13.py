@@ -25,12 +25,23 @@ escarola muzzarela
 ['escarola', 'muzzarela']
 '''
 n = int(input())
-pizzas=[]
+pizzas = []
 for x in range(n):
-  pizza = input()
-  pizzas.append(pizza.split())
+    pizza = input()
+    pizzas.append(pizza.split())
 tamanho = int(input())
-for pizzas in range(len(pizzas)): 
-    if pizza%2==0:
-        print(pizza)
+
+for i, x in enumerate(pizzas):
+    if i % 2 == 0:
+        novaPizza = []
+        for y in x:
+            if len(y) < tamanho:
+                novaPizza.append(y)
+        print(novaPizza)
+    else:
+        novaPizza = []
+        for y in x:
+            if len(y) > tamanho:
+                novaPizza.append(y)
+        print(novaPizza)
   
