@@ -47,5 +47,7 @@ while True:
         ingredientes = input().split()
         dic = {"sabor": sabor, "preco": preco, "ingredientes": ingredientes}
         pizzas.append(dic)
+print("Pizzas Pedidas: ")
 for i in pizzas:
-    print(print(f'\nPizzas Pedidas: {sabor} (R$ {preco}): {ingredientes}'))
+    print(i['sabor'], "(R$",(i['preco']),"):",i['ingredientes'])
+    
