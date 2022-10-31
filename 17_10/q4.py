@@ -31,12 +31,12 @@ Os pares positivos entre 1 e 5 são 2 e 4, e a saída foi 6 porque 2 + 4 = 6.
 Neste caso, calculamos a soma de 2 + 4 + 6 + 8 = 20
 '''
 
-def listar(N):  
-    for i in range(N):
+def listar(var):  
+    for i in range(var):
         if i%2==0:
-            lista.append(i)
-        print(lista)
+            lista.append(i)        
     return lista
+
 
 def somar(listar):
     soma=0
@@ -49,3 +49,5 @@ def somar(listar):
 
 N = int(input())
 lista=[]
+listar(N)
+somar(lista)
